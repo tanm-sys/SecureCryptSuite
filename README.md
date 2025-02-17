@@ -62,7 +62,7 @@ SecureCrypt/
 🔹 [`main.py`](./main.py) – **Core logic handling encryption, CLI commands, and GUI operations**.  
 🔹 [`config.json`](./config.json) – **Adjust security parameters, key storage, and logging settings**.  
 🔹 `app.log` – **Immutable encrypted log file for security audits**.  
-🔹 [`user_journey.svg`] – **Graphical representation of the user workflow in SecureCrypt**.  
+🔹 [`user_journey.svg`](./user_journey.svg) – **Graphical representation of the user workflow in SecureCrypt**.  
 
 ---
 
