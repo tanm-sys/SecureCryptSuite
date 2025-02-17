@@ -181,6 +181,6 @@ Shows the most used programming languages in your projects:
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tanm-sys&theme=radical&layout=compact)
 
----
+--- 
 
-🔹 **Note:** To access the GUI features, ensure that the `tkinter` library is installed on your system. For detailed installation instructions and troubleshooting, refer to the [Tkinter documentation](https://docs.python.org/3/library/tkinter.html).
+🔹 **Note:** To access the GUI features, ensure that the `tkinter` library is installed on your system. For detailed installation instructions and troubleshooting, refer to the [Tkinter documentation](https://docs.python.org/3/library/tkinter.html). 
