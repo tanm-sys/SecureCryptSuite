@@ -98,9 +98,8 @@ SecureCrypt/
 │── README.md        # Documentation (this file)
 │── LICENSE          # Open-source license info
 │── app.log          # Secure, encrypted logging file
-│── assets/          # Directory for images and SVGs
-    ├── user_journey.svg # Visual representation of the user workflow
-    └── flowchart.svg    # Flowchart of the SecureCrypt architecture
+|── user_journey.svg # Visual representation of the user workflow
+|── flowchart.svg    # Flowchart of the SecureCrypt architecture
 ```
 
 ### 📌 **Key Files Explained**
@@ -110,8 +109,8 @@ SecureCrypt/
 | [`main.py`](./main.py) | Core logic handling encryption, CLI commands, and GUI operations. |
 | [`config.json`](./config.json) | Adjust security parameters, key storage, and logging settings. |
 | `app.log` | Immutable encrypted log file for security audits. |
-| [`assets/user_journey.svg`](./assets/user_journey.svg) | Graphical representation of the user workflow in SecureCrypt. |
-| [`assets/flowchart.svg`](./assets/flowchart.svg) | Flowchart illustrating the architecture and components of SecureCrypt. |
+| [`user_journey.svg`](./user_journey.svg) | Graphical representation of the user workflow in SecureCrypt. |
+| [`flowchart.svg`](./flowchart.svg) | Flowchart illustrating the architecture and components of SecureCrypt. |
 
 ---
 
