@@ -1,53 +1,125 @@
----
+# 🔐 SecureCrypt – Enterprise-Grade Encryption Suite  
 
-# SecureCrypt - First Release  
+> **Next-Generation Security** | **Military-Grade Encryption** | **Enterprise Compliance**  
 
-## Overview  
-SecureCrypt is a high-security encryption suite designed for developers and organizations that require strong cryptographic protection. It leverages **RSA encryption**, **Argon2 password hashing**, and **Hardware Security Modules (HSMs)** for maximum security. The suite includes both a **command-line interface (CLI) for automation** and an optional **configuration file** for custom settings.  
+![SecureCrypt]()  
 
-## Key Techniques Used  
-- **Asynchronous and Multi-threaded Execution** – Optimized performance for encryption operations.  
-- **Secure Memory Management** – Prevents sensitive data leaks by automatically wiping memory after use.  
-- **Tamper-Proof Logging** – Encrypts logs to prevent unauthorized modifications.  
-- **Secure Key Storage** – Uses **HSMs** and **OS-level key stores** for private key protection.  
-- **Clipboard Auto-Clear** – Prevents sensitive data exposure.  
-- **Digital Signature Support** – Verifies message integrity using cryptographic signing.  
-- **Customizable CLI Mode** – Allows for batch processing and automation.  
+SecureCrypt is a high-performance cryptographic suite designed for professionals and enterprises demanding **top-tier security, automation, and compliance**. It integrates **RSA encryption**, **Argon2 hashing**, and **Hardware Security Modules (HSMs)** to safeguard sensitive data.  
 
-## Libraries & Technologies  
-This project uses several non-obvious but powerful libraries:  
-- **[cryptography](https://cryptography.io/en/latest/)** – Provides RSA encryption, digital signatures, and secure key handling.  
-- **[Argon2-CFFI](https://argon2-cffi.readthedocs.io/en/stable/)** – Implements the Argon2 key derivation function for password security.  
-- **[PyHSM](https://pypi.org/project/pyhsm/)** – Enables interaction with hardware security modules.  
-- **[loguru](https://loguru.readthedocs.io/en/stable/)** – Provides structured, encrypted logging for security compliance.  
+🔹 **End-to-End Encryption** – Protects data at rest & in transit.  
+🔹 **Automated CLI Workflows** – Ideal for DevOps, CI/CD pipelines & automation.  
+🔹 **Quantum-Resistant Roadmap** – Future-proof security implementation.  
+🔹 **Tamper-Proof Logging** – Encrypted logs with strict access control.  
 
-## Project Structure  
+## 🚀 Features & Innovations  
+
+### 🛡️ **Security & Compliance**  
+✅ **2048-bit+ RSA Encryption** – Prevents unauthorized access.  
+✅ **Argon2 Key Derivation** – Protects against brute-force attacks.  
+✅ **HSM Integration** – Hardware-backed key security for enterprises.  
+✅ **Secure Key Storage** – OS-level key storage for compliance.  
+✅ **Zeroized Memory Protection** – Prevents forensic attacks.  
+✅ **Encrypted Logs & Secure Audit Trails** – Ensures traceability.  
+
+### ⚡ **Performance & Optimization**  
+✅ **Asynchronous Processing** – Multithreading for fast execution.  
+✅ **Adaptive RSA Message Sizing** – Smart memory optimization.  
+✅ **Lightweight, Fast, & Scalable** – Optimized for real-world use.  
+✅ **Cross-Platform Support** – Works on **Linux, macOS, Windows**.  
+✅ **Configurable CLI & API** – Fully automatable for DevSecOps.  
+
+## 🛠️ Technologies & Libraries  
+
+This project leverages **industry-standard cryptographic libraries** for maximum security and efficiency:  
+
+| Library | Purpose | Documentation |
+|---------|---------|--------------|
+| **[cryptography](https://cryptography.io/en/latest/)** | RSA encryption, key management | [Docs](https://cryptography.io) |
+| **[Argon2-CFFI](https://argon2-cffi.readthedocs.io/en/stable/)** | Secure password hashing | [Docs](https://argon2-cffi.readthedocs.io) |
+| **[PyHSM](https://pypi.org/project/pyhsm/)** | Hardware Security Module (HSM) support | [Docs](https://pypi.org/project/pyhsm/) |
+| **[loguru](https://loguru.readthedocs.io/en/stable/)** | Secure, structured logging | [Docs](https://loguru.readthedocs.io) |
+
+## 📂 Project Structure  
+
 ```plaintext
 SecureCrypt/
-│── main.py          # Main application containing encryption logic and CLI
-│── config.json      # Customizable settings for encryption and security
-│── requirements.txt # Dependency list for Python package installation
-│── README.md        # Project documentation
-│── LICENSE          # Open-source license information
+│── main.py          # Core encryption logic & CLI
+│── config.json      # Customizable security & logging settings
+│── requirements.txt # Dependencies for installation
+│── README.md        # Documentation (this file)
+│── LICENSE          # Open-source license info
 ```
-### Notable Files  
-- **main.py** – Contains the entire encryption logic, including CLI operations.  
-- **config.json** – Allows users to customize security settings, key storage, and logging behavior.  
 
-## Installation & Usage  
-### Install Dependencies  
+### 📌 **Key Files Explained**  
+🔹 [`main.py`](./main.py) – **Encryption engine & CLI**.  
+🔹 [`config.json`](./config.json) – **Security settings, key storage, & logging preferences**.  
+
+## 🚀 Installation & Quickstart  
+
+### 🔧 **1. Install Dependencies**  
 ```bash
 pip install -r requirements.txt
 ```
-### Run the Application  
+
+### 🔑 **2. Generate Encryption Keys**  
 ```bash
-python main.py
+openssl genrsa -out private.pem 4096
+openssl rsa -in private.pem -pubout -out public.pem
 ```
-### Use the CLI for Encryption  
+
+### 🔐 **3. Encrypt a File via CLI**  
 ```bash
-python main.py --encrypt --file message.txt --key public.pem
+python main.py --encrypt --file secret.txt --key public.pem
 ```
-### Modify Configuration  
-Customize security settings in [`config.json`](./config.json).  
+
+### 🔓 **4. Decrypt Data**  
+```bash
+python main.py --decrypt --file secret.enc --key private.pem
+```
+
+### 🛠 **5. Customize Settings in `config.json`**  
+```json
+{
+    "logging_level": "INFO",
+    "hsm_enabled": true,
+    "clipboard_timeout": 10,
+    "encryption_algorithm": "RSA-4096"
+}
+```
+
+## 🏆 Best Practices for Maximum Security  
+
+🔒 **Enable HSM for Key Storage** – Use **hardware-backed protection**.  
+🔏 **Use Strong Passphrases** – 16+ character passwords recommended.  
+🔄 **Rotate Keys Regularly** – Avoid long-term cryptographic exposure.  
+🛡 **Restrict Log Access** – Store logs in **encrypted storage**.  
 
 ---
+
+## 📢 Get Involved!  
+
+We welcome contributions from security experts and developers.  
+
+1. **Fork & Clone** the repository.  
+2. **Create a Feature Branch** for improvements.  
+3. **Submit a Pull Request** with detailed documentation.  
+
+---
+
+## 📜 License  
+
+SecureCrypt is **open-source** under the **MIT License**. See [`LICENSE`](./LICENSE) for details.  
+
+---
+
+## 🛠 Support & Contact  
+
+📧 **Email**: `tanmayspatil2006@gmail.com`  
+📌 **GitHub Issues**: Report bugs or suggest features [here](../../issues).
+
+---
+
+### 🔗 More Resources  
+
+🔐 **Cryptography Best Practices**: [OWASP Guide](https://owasp.org)  
+💡 **RSA Key Management**: [NIST Guidelines](https://csrc.nist.gov)  
