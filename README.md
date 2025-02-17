@@ -1,4 +1,4 @@
-# 🔐 SecureCrypt – Enterprise-Grade Encryption & Security Suite
+# 🔐 **SecureCrypt** – Enterprise-Grade Encryption & Security Suite
 
 > **Unparalleled Security | Military-Grade Encryption | Enterprise-Level Compliance**
 
@@ -6,17 +6,17 @@
 
 SecureCrypt is a cutting-edge, enterprise-class encryption suite designed for professionals, businesses, and government entities that demand **state-of-the-art cryptographic security**. By integrating **RSA and AES encryption**, **Argon2 key derivation**, **tamper-proof logging**, and **HSM (Hardware Security Module) support**, SecureCrypt ensures the highest level of **data integrity, confidentiality, and authentication**.
 
-With SecureCrypt, you're not just securing data; you're ensuring compliance with the most stringent regulatory standards, preparing for the future with quantum-resistant features, and utilizing advanced cryptographic mechanisms.
+With SecureCrypt, you're not just securing data—you're ensuring compliance with the most stringent regulatory standards, preparing for the future with quantum-resistant features, and utilizing advanced cryptographic mechanisms.
 
 ---
 
-## 🛤️ User Journey
+## 🛤️ **User Journey**
 
 ![User Journey](user_journey.svg)
 
 ---
 
-## 🚀 Key Features & Innovations
+## 🚀 **Key Features & Innovations**
 
 ### 🛡️ **Military-Grade Security & Compliance**
 SecureCrypt combines robust cryptographic algorithms with enterprise-grade security protocols to safeguard your data at every level.
@@ -39,21 +39,21 @@ SecureCrypt doesn't just secure your data—it does so efficiently and without s
 
 ---
 
-## 🛠️ Technologies & Libraries
+## 🛠️ **Technologies & Libraries**
 
 SecureCrypt utilizes the most reliable and secure cryptographic libraries to implement the features outlined above.
 
-| Library | Purpose | Documentation |
-|---------|---------|--------------|
-| **[cryptography](https://cryptography.io/en/latest/)** | RSA, AES encryption, key management | [Docs](https://cryptography.io) |
-| **[Argon2-CFFI](https://argon2-cffi.readthedocs.io/en/stable/)** | Secure password hashing | [Docs](https://argon2-cffi.readthedocs.io) |
-| **[PyHSM](https://pypi.org/project/pyhsm/)** | Hardware Security Module (HSM) support | [Docs](https://pypi.org/project/pyhsm/) |
-| **[loguru](https://loguru.readthedocs.io/en/stable/)** | Structured, encrypted logging | [Docs](https://loguru.readthedocs.io) |
-| **[tkinter](https://docs.python.org/3/library/tkinter.html)** | Graphical User Interface (GUI) | [Docs](https://docs.python.org/3/library/tkinter.html) |
+| Library                   | Purpose                                         | Documentation                                                                 |
+|---------------------------|-------------------------------------------------|-------------------------------------------------------------------------------|
+| **[cryptography](https://cryptography.io/en/latest/)** | RSA, AES encryption, key management            | [Docs](https://cryptography.io)                                                |
+| **[Argon2-CFFI](https://argon2-cffi.readthedocs.io/en/stable/)** | Secure password hashing                        | [Docs](https://argon2-cffi.readthedocs.io)                                     |
+| **[PyHSM](https://pypi.org/project/pyhsm/)** | Hardware Security Module (HSM) support          | [Docs](https://pypi.org/project/pyhsm/)                                         |
+| **[loguru](https://loguru.readthedocs.io/en/stable/)** | Structured, encrypted logging                  | [Docs](https://loguru.readthedocs.io)                                          |
+| **[tkinter](https://docs.python.org/3/library/tkinter.html)** | Graphical User Interface (GUI)                 | [Docs](https://docs.python.org/3/library/tkinter.html)                         |
 
 ---
 
-## 📂 Project Structure
+## 📂 **Project Structure**
 
 ```plaintext
 SecureCrypt/
@@ -67,6 +67,7 @@ SecureCrypt/
 ```
 
 ### 📌 **Key Files Explained**
+
 🔹 [`main.py`](./main.py) – **Core logic handling encryption, CLI commands, and GUI operations**.  
 🔹 [`config.json`](./config.json) – **Adjust security parameters, key storage, and logging settings**.  
 🔹 `app.log` – **Immutable encrypted log file for security audits**.  
@@ -74,7 +75,7 @@ SecureCrypt/
 
 ---
 
-## 🚀 Installation & Quickstart
+## 🚀 **Installation & Quickstart**
 
 ### 🔧 **1. Install Dependencies**
 ```bash
@@ -125,7 +126,7 @@ You can modify SecureCrypt’s settings by editing the `config.json` file. Examp
 
 ---
 
-## 🏆 Best Practices for Maximum Security
+## 🏆 **Best Practices for Maximum Security**
 
 🔒 **Enable HSM for Secure Key Storage** – Utilize **hardware-backed key management** for an added layer of security.  
 🔏 **Use Strong Passphrases** – Always choose a strong passphrase with a minimum length of **16 characters**.  
@@ -134,7 +135,7 @@ You can modify SecureCrypt’s settings by editing the `config.json` file. Examp
 
 ---
 
-## 📢 Get Involved!
+## 📢 **Get Involved!**
 
 We welcome contributions from security experts and developers who want to improve SecureCrypt's security and features.
 
@@ -144,38 +145,40 @@ We welcome contributions from security experts and developers who want to improv
 
 ---
 
-## 📜 License
+## 📜 **License**
 
 SecureCrypt is **open-source** and available under the **BSD 3-Clause License**. See [`LICENSE`](./LICENSE) for more details.
 
 ---
 
-## 🛠 Support & Contact
+## 🛠 **Support & Contact**
 
 📧 **Email**: `tanmayspatil2006@gmail.com`  
 📌 **GitHub Issues**: Report bugs or suggest features [here](../../issues).
 
 ---
 
-### 🔗 More Resources
+### 🔗 **More Resources**
 
 🔐 **Cryptography Best Practices**: [OWASP Guide](https://owasp.org)  
 💡 **RSA Key Management**: [NIST Guidelines](https://csrc.nist.gov)
 
 ---
 
-### 📊 GitHub Stats & Activity Graphs
+### 📊 **GitHub Stats & Activity Graphs**
 
-#### 📊 GitHub Stats
+#### 📊 **GitHub Stats**
+
 This section shows your profile stats and contributions:
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=tanm-sys&show_icons=true&theme=radical)
 
-#### 📊 Most Used Languages
+#### 📊 **Most Used Languages**
+
 Shows the most used programming languages in your projects:
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tanm-sys&theme=radical&layout=compact)
 
---- 
+---
 
-🔹 **Note:** To access the GUI features, ensure that the `tkinter` library is installed on your system. For detailed installation instructions and troubleshooting, refer to the [Tkinter documentation](https://docs.python.org/3/library/tkinter.html). 
+🔹 **Note:** To access the GUI features, ensure that the `tkinter` library is installed on your system. For detailed installation instructions and troubleshooting, refer to the [Tkinter documentation](https://docs.python.org/3/library/tkinter.html).
