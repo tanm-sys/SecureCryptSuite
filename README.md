@@ -31,7 +31,7 @@ With SecureCrypt, you're not just securing data—you're ensuring compliance wit
 
 ## 🛤️ **User  Journey**
 
-![User  Journey](assets/user_journey.svg)
+![User  Journey](user_journey.svg)
 
 The User Journey diagram illustrates the steps a user will take while interacting with SecureCrypt, from selecting an action to completing encryption or decryption tasks.
 
