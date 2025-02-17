@@ -108,7 +108,7 @@ We welcome contributions from security experts and developers.
 
 ## 📜 License  
 
-SecureCrypt is **open-source** under the **MIT License**. See [`LICENSE`](./LICENSE) for details.  
+SecureCrypt is **open-source** under the **BSD 3-Clause License**. See [`LICENSE`](./LICENSE) for details.  
 
 ---
 
