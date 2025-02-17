@@ -2,7 +2,7 @@
 
 > **Next-Generation Security** | **Military-Grade Encryption** | **Enterprise Compliance**  
 
-![SecureCrypt]()  
+![SecureCrypt](flowchart.svg)  
 
 SecureCrypt is a high-performance cryptographic suite designed for professionals and enterprises demanding **top-tier security, automation, and compliance**. It integrates **RSA encryption**, **Argon2 hashing**, and **Hardware Security Modules (HSMs)** to safeguard sensitive data.  
 
