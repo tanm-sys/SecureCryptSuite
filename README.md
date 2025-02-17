@@ -231,5 +231,3 @@ Shows the most used programming languages in your projects:
 🔹 **Note:** To access the GUI features, ensure that the `tkinter` library is installed on your system. For detailed installation instructions and troubleshooting, refer to the [Tkinter documentation](https://docs.python.org/3/library/tkinter.html).
 
 ---
-
-This README now effectively incorporates the User Journey and flowchart SVG files while maintaining a professional and engaging format. Let me know if you need any further adjustments or additions!
