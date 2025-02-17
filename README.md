@@ -1,83 +1,101 @@
-# 🔐 SecureCrypt – Enterprise-Grade Encryption Suite  
+# 🔐 SecureCrypt – Enterprise-Grade Encryption & Security Suite
 
-> **Next-Generation Security** | **Military-Grade Encryption** | **Enterprise Compliance**  
+> **Unparalleled Security | Military-Grade Encryption | Enterprise-Level Compliance**
 
-![SecureCrypt](flowchart.svg)  
+![SecureCrypt](flowchart.svg)
 
-SecureCrypt is a high-performance cryptographic suite designed for professionals and enterprises demanding **top-tier security, automation, and compliance**. It integrates **RSA encryption**, **Argon2 hashing**, and **Hardware Security Modules (HSMs)** to safeguard sensitive data.  
+SecureCrypt is a cutting-edge, enterprise-class encryption suite engineered for professionals, businesses, and government entities requiring **state-of-the-art cryptographic security**. By integrating **RSA and AES encryption**, **Argon2 key derivation**, **tamper-proof logging**, and **HSM (Hardware Security Module) support**, SecureCrypt ensures the highest level of **data integrity, confidentiality, and authentication**.
 
-🔹 **End-to-End Encryption** – Protects data at rest & in transit.  
-🔹 **Automated CLI Workflows** – Ideal for DevOps, CI/CD pipelines & automation.  
-🔹 **Quantum-Resistant Roadmap** – Future-proof security implementation.  
-🔹 **Tamper-Proof Logging** – Encrypted logs with strict access control.  
+---
 
-## 🚀 Features & Innovations  
+## 🛤️ User Journey
 
-### 🛡️ **Security & Compliance**  
-✅ **2048-bit+ RSA Encryption** – Prevents unauthorized access.  
-✅ **Argon2 Key Derivation** – Protects against brute-force attacks.  
-✅ **HSM Integration** – Hardware-backed key security for enterprises.  
-✅ **Secure Key Storage** – OS-level key storage for compliance.  
-✅ **Zeroized Memory Protection** – Prevents forensic attacks.  
-✅ **Encrypted Logs & Secure Audit Trails** – Ensures traceability.  
+![User Journey](user_journey.svg)
 
-### ⚡ **Performance & Optimization**  
-✅ **Asynchronous Processing** – Multithreading for fast execution.  
-✅ **Adaptive RSA Message Sizing** – Smart memory optimization.  
-✅ **Lightweight, Fast, & Scalable** – Optimized for real-world use.  
-✅ **Cross-Platform Support** – Works on **Linux, macOS, Windows**.  
-✅ **Configurable CLI & API** – Fully automatable for DevSecOps.  
+---
 
-## 🛠️ Technologies & Libraries  
+## 🚀 Key Features & Innovations
 
-This project leverages **industry-standard cryptographic libraries** for maximum security and efficiency:  
+### 🛡️ **Military-Grade Security & Compliance**
+✅ **AES-256 & RSA-4096 Hybrid Encryption** – Combining the strongest symmetric and asymmetric encryption standards.  
+✅ **Argon2 Key Derivation** – Industry-leading password hashing to prevent brute-force attacks.  
+✅ **Multi-Factor Secure Key Storage** – OS-level security and HSM integration for advanced key protection.  
+✅ **Quantum-Resistant Roadmap** – Designed with future cryptographic advancements in mind.  
+✅ **Digital Signatures & Verification** – RSA-based cryptographic signing to validate file integrity.  
+✅ **Tamper-Proof Logging** – Secure, immutable, encrypted log storage ensuring audit traceability.  
+
+### ⚡ **Performance & Optimization**
+✅ **Asynchronous, Multi-threaded Processing** – Ensuring encryption & key generation do not block UI operations.  
+✅ **Adaptive RSA Message Sizing** – Smart memory allocation for efficient encryption.  
+✅ **Cross-Platform Compatibility** – Runs seamlessly on **Windows, macOS, and Linux**.  
+✅ **Customizable Security Policies via `config.json`** – Enterprise-grade flexibility.  
+✅ **Dual-Mode Support** – **Graphical User Interface (GUI)** and **Command-Line Interface (CLI)**.  
+
+---
+
+## 🛠️ Technologies & Libraries
 
 | Library | Purpose | Documentation |
 |---------|---------|--------------|
-| **[cryptography](https://cryptography.io/en/latest/)** | RSA encryption, key management | [Docs](https://cryptography.io) |
+| **[cryptography](https://cryptography.io/en/latest/)** | RSA, AES encryption, key management | [Docs](https://cryptography.io) |
 | **[Argon2-CFFI](https://argon2-cffi.readthedocs.io/en/stable/)** | Secure password hashing | [Docs](https://argon2-cffi.readthedocs.io) |
 | **[PyHSM](https://pypi.org/project/pyhsm/)** | Hardware Security Module (HSM) support | [Docs](https://pypi.org/project/pyhsm/) |
-| **[loguru](https://loguru.readthedocs.io/en/stable/)** | Secure, structured logging | [Docs](https://loguru.readthedocs.io) |
+| **[loguru](https://loguru.readthedocs.io/en/stable/)** | Structured, encrypted logging | [Docs](https://loguru.readthedocs.io) |
+| **[tkinter](https://docs.python.org/3/library/tkinter.html)** | Graphical User Interface (GUI) | [Docs](https://docs.python.org/3/library/tkinter.html) |
 
-## 📂 Project Structure  
+---
+
+## 📂 Project Structure
 
 ```plaintext
 SecureCrypt/
-│── main.py          # Core encryption logic & CLI
-│── config.json      # Customizable security & logging settings
+│── main.py          # Core encryption engine, CLI, and GUI
+│── config.json      # Customizable security, logging, and key storage settings
 │── requirements.txt # Dependencies for installation
 │── README.md        # Documentation (this file)
 │── LICENSE          # Open-source license info
+│── app.log          # Secure, encrypted logging file
+│── user_journey.svg # Visual representation of the user workflow
 ```
 
-### 📌 **Key Files Explained**  
-🔹 [`main.py`](./main.py) – **Encryption engine & CLI**.  
-🔹 [`config.json`](./config.json) – **Security settings, key storage, & logging preferences**.  
+### 📌 **Key Files Explained**
+🔹 [`main.py`](./main.py) – **Core logic handling encryption, CLI commands, and GUI operations**.  
+🔹 [`config.json`](./config.json) – **Adjust security parameters, key storage, and logging settings**.  
+🔹 `app.log` – **Immutable encrypted log file for security audits**.  
+🔹 `user_journey.svg` – **Graphical representation of the user workflow in SecureCrypt**.  
 
-## 🚀 Installation & Quickstart  
+---
 
-### 🔧 **1. Install Dependencies**  
+## 🚀 Installation & Quickstart
+
+### 🔧 **1. Install Dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-### 🔑 **2. Generate Encryption Keys**  
+### 🔑 **2. Generate Encryption Keys**
 ```bash
 openssl genrsa -out private.pem 4096
 openssl rsa -in private.pem -pubout -out public.pem
 ```
 
-### 🔐 **3. Encrypt a File via CLI**  
+### 🔐 **3. Encrypt a File via CLI**
 ```bash
 python main.py --encrypt --file secret.txt --key public.pem
 ```
 
-### 🔓 **4. Decrypt Data**  
+### 🔓 **4. Decrypt Data**
 ```bash
 python main.py --decrypt --file secret.enc --key private.pem
 ```
 
-### 🛠 **5. Customize Settings in `config.json`**  
+### 🖥️ **5. Launch the Graphical User Interface (GUI)**
+```bash
+python main.py --gui
+```
+🔹 **Note:** Ensure `tkinter` is installed on your system. For installation guidance, refer to the [Tkinter documentation](https://docs.python.org/3/library/tkinter.html).  
+
+### 🛠 **6. Customize Security Settings via `config.json`**
 ```json
 {
     "logging_level": "INFO",
@@ -87,39 +105,46 @@ python main.py --decrypt --file secret.enc --key private.pem
 }
 ```
 
-## 🏆 Best Practices for Maximum Security  
+---
 
-🔒 **Enable HSM for Key Storage** – Use **hardware-backed protection**.  
-🔏 **Use Strong Passphrases** – 16+ character passwords recommended.  
-🔄 **Rotate Keys Regularly** – Avoid long-term cryptographic exposure.  
-🛡 **Restrict Log Access** – Store logs in **encrypted storage**.  
+## 🏆 Best Practices for Maximum Security
+
+🔒 **Enable HSM for Secure Key Storage** – Utilize **hardware-backed key management**.  
+🔏 **Use Strong Passphrases** – Minimum **16-character passwords recommended**.  
+🔄 **Rotate Keys Regularly** – Prevents long-term cryptographic vulnerabilities.  
+🛡 **Restrict Log Access** – Encrypted logs must be stored in **secure environments**.  
 
 ---
 
-## 📢 Get Involved!  
+## 📢 Get Involved!
 
-We welcome contributions from security experts and developers.  
+We welcome contributions from security experts and developers.
 
-1. **Fork & Clone** the repository.  
-2. **Create a Feature Branch** for improvements.  
-3. **Submit a Pull Request** with detailed documentation.  
-
----
-
-## 📜 License  
-
-SecureCrypt is **open-source** under the **BSD 3-Clause License**. See [`LICENSE`](./LICENSE) for details.  
+1. **Fork & Clone** the repository.
+2. **Create a Feature Branch** for improvements.
+3. **Submit a Pull Request** with documentation and rationale.
 
 ---
 
-## 🛠 Support & Contact  
+## 📜 License
+
+SecureCrypt is **open-source** under the **BSD 3-Clause License**. See [`LICENSE`](./LICENSE) for details.
+
+---
+
+## 🛠 Support & Contact
 
 📧 **Email**: `tanmayspatil2006@gmail.com`  
-📌 **GitHub Issues**: Report bugs or suggest features [here](../../issues).
+📌 **GitHub Issues**: Report bugs or suggest features [here](../../issues).  
 
 ---
 
-### 🔗 More Resources  
+### 🔗 More Resources
 
 🔐 **Cryptography Best Practices**: [OWASP Guide](https://owasp.org)  
 💡 **RSA Key Management**: [NIST Guidelines](https://csrc.nist.gov)  
+
+---
+
+🔹 **Note:** To access the GUI features, ensure that the `tkinter` library is installed on your system. For detailed installation instructions and troubleshooting, refer to the [Tkinter documentation](https://docs.python.org/3/library/tkinter.html).
+
