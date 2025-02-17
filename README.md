@@ -166,11 +166,6 @@ SecureCrypt is **open-source** and available under the **BSD 3-Clause License**.
 
 ### 📊 GitHub Stats & Activity Graphs
 
-#### 📈 GitHub Contributions Graph
-This graph automatically updates based on your contributions:
-
-![GitHub Contributions Graph](https://github-readme-activity-graph.cyclic.app/graph?username=tanm-sys&theme=react)
-
 #### 📊 GitHub Stats
 This section shows your profile stats and contributions:
 
