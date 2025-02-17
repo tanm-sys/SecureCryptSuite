@@ -1,9 +1,8 @@
-
 ---
 
 # 🔐 **SecureCrypt** – Enterprise-Grade Encryption & Security Suite
 
-![SecureCrypt](assets/logo.png)  
+![SecureCrypt Flowchart](flowchart.svg)  
 ![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue) ![License](https://img.shields.io/badge/License-BSD%203--Clause-green) ![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
 
 > **Unparalleled Security | Military-Grade Encryption | Enterprise-Level Compliance**
@@ -101,7 +100,7 @@ SecureCrypt/
 │── app.log          # Secure, encrypted logging file
 │── assets/          # Directory for images and SVGs
     ├── user_journey.svg # Visual representation of the user workflow
-    └── logo.png      # Project logo
+    └── flowchart.svg    # Flowchart of the SecureCrypt architecture
 ```
 
 ### 📌 **Key Files Explained**
@@ -112,6 +111,7 @@ SecureCrypt/
 | [`config.json`](./config.json) | Adjust security parameters, key storage, and logging settings. |
 | `app.log` | Immutable encrypted log file for security audits. |
 | [`assets/user_journey.svg`](./assets/user_journey.svg) | Graphical representation of the user workflow in SecureCrypt. |
+| [`assets/flowchart.svg`](./assets/flowchart.svg) | Flowchart illustrating the architecture and components of SecureCrypt. |
 
 ---
 
@@ -231,3 +231,5 @@ Shows the most used programming languages in your projects:
 🔹 **Note:** To access the GUI features, ensure that the `tkinter` library is installed on your system. For detailed installation instructions and troubleshooting, refer to the [Tkinter documentation](https://docs.python.org/3/library/tkinter.html).
 
 ---
+
+This README now effectively incorporates the User Journey and flowchart SVG files while maintaining a professional and engaging format. Let me know if you need any further adjustments or additions!
